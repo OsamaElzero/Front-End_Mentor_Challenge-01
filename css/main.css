@@ -1,3 +1,6 @@
+:root {
+  --main-font-size: 2rem;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -18,21 +21,23 @@ body {
   text-align: center;
 }
 .head p:first-child {
-  font-size: 35px;
+  font-size: var(--main-font-size);
   font-weight: 200;
   margin-bottom: 0;
+  margin-top: 65px;
+  color: hsl(234, 12%, 34%);
 }
 @media (max-width: 575px) {
   .head p:first-child {
-    margin-top: 80px;
     font-size: 24px;
   }
 }
 .head p:nth-child(2) {
-  font-size: 35px;
+  font-size: var(--main-font-size);
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 10px;
+  color: hsl(234, 12%, 34%);
 }
 @media (max-width: 575px) {
   .head p:nth-child(2) {
@@ -84,9 +89,9 @@ body {
   padding: 30px;
   margin-bottom: 30px;
   border-top: 4px solid transparent;
-  -webkit-box-shadow: 0px 15px 20px hsl(234deg 12% 34% / 20%);
-  -moz-box-shadow: 0px 15px 20px hsl(234deg 12% 34% / 20%);
-  box-shadow: 0px 15px 20px hsl(234deg 12% 34% / 20%);
+  -webkit-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+  -moz-box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
+  box-shadow: 2px 8px 14px 0 hsla(229, 6%, 66%, 0.6);
 }
 .content .card-holder .card h3 {
   font-weight: 600;
