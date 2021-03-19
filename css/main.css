@@ -15,7 +15,7 @@ body {
 .page {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 70px;
+  padding-top: 75px;
 }
 /* Start Head Area */
 .head {
@@ -62,7 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 75px;
 }
 @media (max-width: 575px) {
   .content {
@@ -98,7 +98,7 @@ body {
   line-height: 1.7;
   color: hsl(229, 6%, 66%);
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .content .card-holder .card img {
   display: block;
