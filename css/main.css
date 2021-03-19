@@ -1,5 +1,5 @@
 :root {
-  --main-font-size: 2rem;
+  --main-font-size: 2.3rem;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -62,7 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 @media (max-width: 575px) {
   .content {
