@@ -1,2 +1,5 @@
-# Front-End_Mentor_Challenge-01
-Front-End Mentor Challenge 01 => Four Card Feature Section
+# Frontend Mentor - Four Card Feature Section
+
+![Design Preview](./design/desktop-preview.jpg)
+
+## Welcome! 👋
